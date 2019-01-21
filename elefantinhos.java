@@ -1,8 +1,9 @@
 class Elefantinhos {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
     int vezes = 1, quantidade = 1;
 
         while(true){
+            Thread.sleep(1000);
             if(quantidade == 1){
                 System.out.println(quantidade + " elefante incomoda muita gente!");
             }else{
